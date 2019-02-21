@@ -1,0 +1,95 @@
+.wrapper {
+  padding: 50px 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.asset-summary {
+  background: #f8f8f8;
+  padding: 30px 0;
+}
+
+.asset-summary .info {
+  color: #777777;
+}
+
+.info {
+  font-size: 10pt;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  color: #d4d4d4;
+}
+
+.asset-summary-left {
+  font-weight: bold;
+}
+
+.asset-summary-right {
+  text-align: right;
+}
+
+.asset-builder {
+  margin: 50px 0;
+}
+
+.asset-picker {
+  background: #f8f8f8;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+  height: 500px;
+  overflow: scroll;
+  border-radius: 5px;
+}
+
+.asset-preview {
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+li.asset {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+li.asset h2 {
+  color: #ffffff;
+  font-size: 12pt;
+}
+
+button.remove-asset {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  -webkit-appearance: none;
+  border: transparent;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  width: 26px;
+  height: 26px;
+  line-height: 0px;
+  padding: 0;
+  cursor: pointer;
+}
+
+button.remove-asset:focus {
+  outline: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-4 {
+  width: 400px;
+}
+
+.col-8 {
+  width: 100%;
+}

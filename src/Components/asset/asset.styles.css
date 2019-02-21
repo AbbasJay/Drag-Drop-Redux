@@ -1,0 +1,19 @@
+li.asset p {
+  margin: 0;
+}
+
+li.type-article {
+  background: #131540;
+}
+
+li.type-document {
+  background: #d4ae00;
+}
+
+li.type-video {
+  background: #f14b5a;
+}
+
+li.type-online-course {
+  background: #4bd13f;
+}
